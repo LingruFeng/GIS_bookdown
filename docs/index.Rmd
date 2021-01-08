@@ -1,0 +1,35 @@
+--- 
+title: "Dispersing or clustering: Spatial Pattern Analysis for Public Use and Taxi’s Rapid Charging Facilities in London, UK"
+author: "Student Number: 19175131"
+date: "2021/1/8"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "This is tutorial a book with R Markdown for CASA0005 final coursework containing code and instruction of the whole analyzing process."
+---
+
+# CASA0005: GIS Final Assessment Tutorial Book
+
+This is tutorial a book with R Markdown for GIS final coursework containing code and instruction of the whole analyzing process.
+
+**Program:** MSc Spatial Data Science and Visualisation
+
+**Department:** Centre for Advanced Spatial Analysis
+
+**GitHub repository:** <https://github.com/LingruFeng/GIS_assessment>
+
+**Rpub link:** <https://rpubs.com/Lingru/GIS_assessment>
+
+
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
